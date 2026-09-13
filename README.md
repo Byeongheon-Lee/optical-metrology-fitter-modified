@@ -16,6 +16,23 @@ measuring its own self-consistency.
 
 ---
 
+## 0. How this was built
+
+The code and the validation scripts were written with AI coding tools. What I
+contributed is the part that decides whether any of it can be believed: the
+structure of the validation, the judgement of what each tier actually
+guarantees, the systematic-error study in §4, and the limitations in §5.
+
+That division is the right way to read §3. Thirty-four checks passing is not
+the claim. The claim is that the three tiers carry different evidential
+weight — Tier A catches coding mistakes but never a wrong convention, Tier B
+tests the physics but is still self-consistency, and only Tier C is
+external — and that even Tier C is not fully independent, since the author of
+the `tmm` package wrote the paper this code follows. It establishes that the
+method was transcribed correctly, and nothing beyond that.
+
+---
+
 ## 1. Theory
 
 ### 1.1 Convention — fixed once, enforced everywhere

@@ -1,0 +1,8 @@
+# Core
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Optional: Tier C cross-validation against an independent implementation.
+# The test suite skips those checks cleanly if this is absent.
+# tmm>=0.1.8
