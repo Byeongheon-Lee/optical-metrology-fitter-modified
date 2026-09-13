@@ -1,0 +1,19 @@
+# Real spectroscopic ellipsometry measurement (WVASE format)
+# Sample: PNIPAM polymer brush (nominal dry ~100 nm) on 2 nm native
+#         SiO2 on Si, measured in situ in water at 15 C, single angle
+#         (65 deg), 400-800 nm.
+# Source: refnx/refellips (github.com/refnx/refellips), demos/
+#         WVASE_example_2nmSiO2_100nmPNIPAM_MultiWavelength_Water.dat
+#         MIT-licensed. This is NOT synthetic data.
+# Columns: wavelength_nm  angle_deg  psi_deg  delta_deg
+400.0,65.0,25.904,161.803
+440.0,65.0,22.291,158.671
+480.0,65.0,19.989,156.382
+520.0,65.0,18.305,154.300
+560.0,65.0,16.923,152.472
+600.0,65.0,15.888,151.074
+640.0,65.0,14.928,149.928
+680.0,65.0,14.143,149.153
+720.0,65.0,13.446,148.454
+760.0,65.0,12.895,147.959
+800.0,65.0,12.381,147.671

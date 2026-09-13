@@ -1,0 +1,28 @@
+{
+  "design_A_n_candidates": 8,
+  "design_A_candidates_nm": [
+    57.13,
+    79.5,
+    194.94,
+    217.31,
+    332.76,
+    355.13,
+    470.37,
+    492.94
+  ],
+  "design_B_n_candidates": 1,
+  "design_B_candidates_nm": [
+    217.31
+  ],
+  "design_C_n_candidates": 1,
+  "design_C_candidates_nm": [
+    217.31
+  ],
+  "design_B_d_fit": 217.29677298791987,
+  "design_B_sigma": 0.0025235969508458837,
+  "design_B_err": -0.0032270120801456414,
+  "design_C_d_fit": 217.29985474871512,
+  "design_C_sigma": 0.004436190990671292,
+  "design_C_err": -0.00014525128489140116,
+  "naive_wrong_order_fraction": 0.6666666666666666
+}
